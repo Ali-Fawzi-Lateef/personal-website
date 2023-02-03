@@ -6,7 +6,7 @@ import ArrowImg from "../assets/right-arrow.png"
 export default function Projects()
 {
     function RedirectToGithub() {
-        window.location.replace('https://tailwindcss.com/docs/grid-template-columns');
+        window.location.replace('https://github.com/Ali-Fawzi-Lateef/University');
 
     }
 
