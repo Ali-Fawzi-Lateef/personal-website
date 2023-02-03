@@ -1,17 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import {Route, Routes} from "react-router-dom";
+import Projects from "./pages/Projects";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-amber-300">
-          Ali Fawzi
-        </p>
-      </header>
-    </div>
-  );
+export default function App()
+{
+    return(
+      <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+      </Routes>
+    );
 }
-
-export default App;
