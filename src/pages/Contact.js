@@ -13,10 +13,10 @@ export default function Contact()
             type: "heading2",
             text: "Email: alifawzi@alifawzi.ninja"
         },
-        // {
-        //     type: "heading2",
-        //     text: ""
-        // },
+        {
+            type: "heading2",
+            text: "Phone Number: 07732720330"
+        },
     ];
 
     const container = {
@@ -29,7 +29,7 @@ export default function Contact()
     return(
         <section className="h-screen w-screen" id="BackGroundGRadiant">
             <motion.div
-                className="text-center"
+                className="text-center text-xl	md:text-2xl lg:text-3xl"
                 initial="hidden"
                 animate="visible"
                 variants={container}

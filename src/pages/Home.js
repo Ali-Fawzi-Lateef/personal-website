@@ -1,7 +1,7 @@
 import { motion, AnimatePresence} from "framer-motion";
 import AnimatedText from "../component/AnimatedText";
 import "../assets/styles.css";
-import ArrowImg from "../assets/right-arrow.png"
+import ArrowImg from "../assets/RightArrow.png"
 import ReactImag from "../assets/React.png"
 import LaravelImg from "../assets/Laravel.jpg"
 import { useState } from "react";
@@ -32,7 +32,7 @@ export default function Home()
     return (
         <section id="BackGroundGRadiant" className="w-screen h-screen">
             <motion.div
-                className="text-center"
+                className="text-center text-xl	md:text-2xl lg:text-3xl"
                 initial="hidden"
                 animate="visible"
                 variants={container}
@@ -68,7 +68,7 @@ export default function Home()
                         }}
             >
                 <Link to="/projects">
-                    <img src={ArrowImg} alt="Arrow" className="h-5 w-5 sm:h-7 sm:w-7 lg:w-10 lg:h-10 xl:h-12 xl:w-12 "/>
+                    <img src={ArrowImg} alt="Arrow" className="h-10 w-10 md:h-12 md:w-12 lg:h-14 lg:w-14"/>
                 </Link>
             </motion.div>
 
