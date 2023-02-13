@@ -11,7 +11,7 @@ export default function Contact()
         },
         {
             type: "heading2",
-            text: "Email: alifawzi@alifawzi.ninja"
+            text: "Email: alifawzi090@gmail.com",
         },
         {
             type: "heading2",

@@ -52,7 +52,7 @@ export default function Home()
                             ease: [0, 0.71, 0.2, 1.01]
                         }}
             >
-                    <motion.ul layout initial={{ borderRadius: 25 }}>
+                    <motion.ul layout initial={{ borderRadius: 25 }} className="w-4/5 md:w-3/5 lg:w-2/5 ">
                         {Technologies.map((item , index)=> {
                             return <Item {...item} key={index} />
                         })}
@@ -81,7 +81,7 @@ function Item(props) {
     const toggleOpen = () => setIsOpen(!isOpen);
     return (
         <motion.li layout onClick={toggleOpen} initial={{ borderRadius: 10 }}>
-            <img src={props.pics} className="h-6 w-6 rounded-full" alt="Logo"/>
+            <img src={props.pics} className="h-8 w-8 lg:h-10 lg:w-10 rounded-full" alt="Logo"/>
             <motion.div>{props.type}</motion.div>
             <AnimatePresence>{isOpen && <Content {...props} />}</AnimatePresence>
         </motion.li>
