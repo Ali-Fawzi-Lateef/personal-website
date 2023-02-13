@@ -21,8 +21,8 @@ export default function Projects()
                     }}
                 >
                     <img src={projectImg1} alt="project1" className="object-cover h-56 w-full "/>
-                    <p className="text-2xl text-center font-serif" >School Management System</p>
-                    <p className="text-xl text-center font-serif text-gray-500">A web application that is built using:
+                    <p className="text-base md:text-xl lg:text-2xl text-center font-serif" >School Management System</p>
+                    <p className="text-sm md:text-base lg:text-xl text-center font-serif text-gray-600">A web application that is built using:
                         React.js for client-side and php Laravel for the server-side as a restAPI,
                         and TailwindCss with materialUI for styles.</p>
 
@@ -39,8 +39,8 @@ export default function Projects()
                     }}
                 >
                     <img src={projectImg2} alt="project1" className="object-contain h-56 w-full "/>
-                    <p className="text-2xl text-center font-serif" >Wise Word</p>
-                    <p className="text-xl text-center font-serif text-gray-500">A Telegram bot that is built using:
+                    <p className="text-base md:text-xl lg:text-2xl text-center font-serif" >Wise Word</p>
+                    <p className="text-sm md:text-base lg:text-xl text-center font-serif text-gray-600">A Telegram bot that is built using:
                         PHP the bot gives you an insightful quote whenever you ask for it, there is infinite amount of quotes.</p>
                 </motion.a>
             </div>
